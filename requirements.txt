@@ -16,7 +16,6 @@ Js2Py==0.71
 keyboard==0.13.5
 MouseInfo==0.1.3
 packaging==21.0
-pipwin==0.5.1
 psycopg2==2.9.1
 PyAutoGUI==0.9.52
 PyGetWindow==0.0.9

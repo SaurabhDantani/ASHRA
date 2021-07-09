@@ -2,15 +2,28 @@ from django.shortcuts import render
 
 #Create your views here.
 
-data={
+from django.http import HttpResponse
 
-'tital':['java','php','android','html'],
+def header(request):
+	return render(request,'header.html')
 
-'list':[
-    
-    {'name':'saurabh','contact':7359747893}
-]
-}
+def index(request):
+    	return render(request,'index.html')
 
-def home(request):
-    return render(request,"index.html",data)
+def footer(request):
+    	return render(request,'footer.html')
+
+def contact(request):
+    	return render(request,'contact.html')
+
+def why(request):
+    	return render(request,'why-us.html')
+
+def client(request):
+    	return render(request,'client.html')
+
+def client(request):
+	return render(request,'client.html')
+
+def skills(request):
+    	return render(request,'skills.html')
